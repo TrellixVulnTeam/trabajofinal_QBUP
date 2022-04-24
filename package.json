@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuanRodrigoVV/coderhouse.git"
+    "url": "git+https://github.com/JuanRodrigoVV/trabajofinal.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JuanRodrigoVV/coderhouse/issues"
+    "url": "https://github.com/JuanRodrigoVV/trabajofinal/issues"
   },
-  "homepage": "https://github.com/JuanRodrigoVV/coderhouse#readme",
+  "homepage": "https://github.com/JuanRodrigoVV/trabajofinal#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
