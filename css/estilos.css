@@ -1102,13 +1102,13 @@ h4.sub-title {
 .products-4 input:checked + label.tabtle,
 .products-4 label.tabtle:hover {
   text-align: center;
-  background: var(--opposite-color);
+  background: #040301;
   font-size: 16px;
   line-height: 25px;
   color: #fff;
   padding: 10px 30px;
   border-radius: 4px;
-  border: 1px solid var(--opposite-color); }
+  border: 1px solid #ffffff; }
 
 .products-4 #tab1:checked ~ #content1,
 .products-4 #tab2:checked ~ #content2,
@@ -2569,7 +2569,3 @@ li:last-child {
     font-size: 35px; }
   .tank-service-breadcrum .breadcrum-bg {
     padding-top: 60px; } }
-
-/*@import "parciales/_footer";
-@import "parciales/_header";
-@import "parciales/_variables.scss";*/
