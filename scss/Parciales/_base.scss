@@ -1,0 +1,105 @@
+:root {
+    --theme-color:#dab200;
+    --secondary-color:#ff8800;
+    --opposite-color:#ff8800;
+    --text-color:#dadada;
+    --title-color:#ffffff;
+    --white-color:#ffffff;
+    --light-bg-color:#f6f6f6;
+    --bg-color:#1c1d21;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.noscroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body,
+html {
+    background: var(--bg-color)!important;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-flex {
+    display: flex;
+    
+}
+
+button,
+input,
+select {
+    outline: none;
+    font-family: sans-serif;
+}
+
+
+button,
+.btn,
+select {
+    cursor: pointer;
+    font-family: sans-serif;
+    background: var(--secondary-color)!important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+iframe {
+    border: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3{
+    color: #111;
+}
+h4{
+    
+    color: #000;
+    
+}
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+span.diff {
+    color: var(--secondary-color);
+}
