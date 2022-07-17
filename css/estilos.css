@@ -858,7 +858,7 @@ h4.sub-title {
   transition: 0.3s ease-in; }
 
 .tank-main-banner .banner-view {
-  background: url(../images/1.webp) no-repeat right;
+/*   background: url(../images/1.webp) no-repeat right; */
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -1113,7 +1113,8 @@ h4.sub-title {
 .products-4 #tab1:checked ~ #content1,
 .products-4 #tab2:checked ~ #content2,
 .products-4 #tab3:checked ~ #content3,
-.products-4 #tab4:checked ~ #content4 {
+.products-4 #tab4:checked ~ #content4,
+.products-4 #tab5:checked ~ #content5 {
   display: block; }
 
 .products-4 .info-bg {
@@ -2125,7 +2126,8 @@ li:last-child {
     padding: 15px; } }
 
 .tank-features-4 .features {
-  background: var(--bg-color); }
+  background: black; 
+  background-image: -moz-repeating-linear-gradient() ;}
 
 .tank-features-4 a.red {
   font-size: 16px;
@@ -2569,3 +2571,17 @@ li:last-child {
     font-size: 35px; }
   .tank-service-breadcrum .breadcrum-bg {
     padding-top: 60px; } }
+
+    .video123 {
+      
+    
+      left: 0;
+      top: 0;
+      height: 150px;
+      z-index: -1;
+    }
+
+    .center {
+      justify-content: center;
+      align-items: center;
+    }
